@@ -9,16 +9,15 @@ html {
 }
 
 body {
-  zoom: 90%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   color:#292E40;
-  background-color: #BED9DE;
-  background-size: cover;
+  background: url(/photos/back5.jpg);
+  background-repeat: repeat;
+  animation: animated-bg 60s linear infinite;
 }
-
+@keyframes animated-bg {
+  from { background-position: 0 0; }
+  to { background-position: 0 1000px; }
+}
 a {
   color: inherit;
   text-decoration: none;

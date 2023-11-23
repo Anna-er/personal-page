@@ -4,7 +4,6 @@ import styles from './page.module.css'
 const imageStyle = {
   borderRadius: '50%',
   border: '1px solid #fff',
-  marginTop: '40px',
 }
 
 
@@ -14,6 +13,8 @@ export default function Home() {
       <h1 className={styles.head}>
         Ermolovich Anna
       </h1>
+      <div className={styles.parent}>
+      <div className={styles.main_container}>
       {/* <Image
         сlassName={styles.img1}
         src="/photos/1.png"
@@ -53,6 +54,8 @@ export default function Home() {
         <a href="https://www.open-std.org/jtc1/sc22/wg14/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="60" height="60"/> </a>
         <a href="https://ocaml.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ocaml/ocaml-original.svg" alt="ocaml" width="60" height="60"/> </a>
         <a href="https://vitejs.org/" target="_blank" rel="noreferrer"> <img src="https://vitejs.dev/logo.svg" alt="vitejs" width="60" height="60"/> </a>
+      </div>
+      </div>
       </div>
     </main>
   )
