@@ -10,6 +10,7 @@ html {
 
 body {
   color:#292E40;
+  font-size: 24px;
   background: url(/photos/back5.jpg);
   background-repeat: repeat;
   animation: animated-bg 60s linear infinite;
