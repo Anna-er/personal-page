@@ -20,14 +20,6 @@ export default function Home() {
         Ermolovich Anna
       </h1>
       <div className={styles.main_container}>
-      {/* <Image
-        сlassName={styles.img1}
-        src="/photos/1.png"
-        width={300}
-        height={300}
-        alt="Picture 1"
-        style={imageStyle}
-      /> */}
       <div className={styles.line}>
       <p><span className={styles.super_text}>Hi!</span> My name is <b>Anna</b> I am 19 years old student of Software Engineering at <i>St. Petersburg University</i>.</p>
       <Image
@@ -38,14 +30,6 @@ export default function Home() {
         alt="Picture 4"
         style={imageStyle}
       />
-      {/* <Image
-        сlassName={styles.img3}
-        src="/photos/3.jpg"
-        width={300}
-        height={300}
-        alt="Picture 3"
-        style={imageStyle}
-      /> */}
       </div>
       <h3 className={styles.text}>Languages and Tools:</h3>
       <div className={styles.icons}>
@@ -60,7 +44,7 @@ export default function Home() {
         <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="50" height="50"/> </a>
         <a href="https://www.open-std.org/jtc1/sc22/wg14/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/> </a>
         <a href="https://ocaml.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ocaml/ocaml-original.svg" alt="ocaml" width="50" height="50"/> </a>
-        <a href="https://vitejs.org/" target="_blank" rel="noreferrer"> <img src="https://vitejs.dev/logo.svg" alt="vitejs" width="50" height="50"/> </a>
+        <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> <img src="https://vitejs.dev/logo.svg" alt="vitejs" width="50" height="50"/> </a>
       </div>
       <h3 className={styles.text}>Contact with me:</h3>
       <div className={styles.icons}>
