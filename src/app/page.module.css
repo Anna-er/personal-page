@@ -13,7 +13,7 @@
   margin: 20px;
   background-color: #BED9DE;
   padding: 40px;
-  max-width: 850px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
@@ -55,8 +55,24 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.card {
+  background-color: #ffffffa9;
+  padding: 30px;
+  max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 15px auto;
+  border-radius: 5px;
+}
 
-@media only screen and (max-width: 460px) {
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+@media only screen and (max-width: 900px) {
   .head {
     line-height: 200px;
     font-size: 40px;
@@ -65,7 +81,22 @@
     text-shadow: 1px 1px 1px #292E40;
   }
   .line {
-    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 15px;
+  }
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .line {
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: left;
